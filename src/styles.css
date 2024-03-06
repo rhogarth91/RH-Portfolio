@@ -6,10 +6,6 @@
   --border-radius: 8px;
 }
 
-body {
-  background: var(--primary-color);
-}
-
 h1 {
   font-size: 50px;
   display: block;
@@ -54,6 +50,10 @@ footer p {
 footer a {
   text-decoration: none;
   color: var(--primary-color);
+}
+
+.main-bg {
+  background: var(--primary-color);
 }
 
 .page-links {
@@ -128,4 +128,13 @@ footer a {
   padding: 20px;
   border-radius: var(--border-radius);
   box-shadow: var(--box-shadow);
+}
+
+.img-bg {
+  border: 2px solid var(--secondary-color);
+}
+
+.app-info {
+  background: var(--secondary-color);
+  color: var(--main-text-color);
 }
