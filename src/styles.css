@@ -31,6 +31,7 @@ p {
   background: var(--secondary-color);
   padding: 20px;
   border-radius: var(--border-radius);
+  border: 2px solid var(--primary-color);
   box-shadow: var(--box-shadow);
 }
 
@@ -132,9 +133,12 @@ footer a {
 
 .img-bg {
   border: 2px solid var(--secondary-color);
+  box-shadow: var(--box-shadow);
 }
 
 .app-info {
   background: var(--secondary-color);
   color: var(--main-text-color);
+  border: 2px solid var(--primary-color);
+  box-shadow: var(--box-shadow);
 }
