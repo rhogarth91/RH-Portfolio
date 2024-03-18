@@ -90,8 +90,9 @@ footer a {
 }
 
 .intro-bg-image {
-  background-image: url("");
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/119/693/original/work_desk.jpg?1710787959");
   background-size: cover;
+  background-position: center;
 }
 
 .back-to-top {
