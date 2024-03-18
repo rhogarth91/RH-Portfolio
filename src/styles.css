@@ -4,25 +4,34 @@
   --main-text-color: #fff;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
   --border-radius: 8px;
+  --header-font: "Cousine", monospace;
+  --main-font: "Spline Sans Mono", monospace;
+}
+
+h1,
+h2 {
+  display: block;
+  font-size: bold;
+  text-align: center;
+  font-family: var(--header-font);
+  font-weight: 400;
+  font-style: normal;
 }
 
 h1 {
-  font-size: 50px;
-  display: block;
-  font-size: bold;
-  text-align: center;
+  font-size: 70px;
 }
 
 h2 {
-  font-size: 30px;
-  display: block;
-  font-size: bold;
-  text-align: center;
+  font-size: 45px;
 }
 
 h3 {
   text-align: center;
-  font-size: 25px;
+  font-family: var(--header-font);
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
 }
 
 p {
@@ -32,6 +41,10 @@ p {
   border-radius: var(--border-radius);
   border: 2px solid var(--primary-color);
   box-shadow: var(--box-shadow);
+  font-family: var(--main-font);
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
 
 footer {
@@ -46,6 +59,10 @@ footer p {
   border-radius: var(--border-radius);
   padding: 20px;
   margin: 30px auto;
+  font-family: var(--main-font);
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
 
 footer a {
@@ -59,6 +76,11 @@ footer a {
 
 .nav-bg {
   background: var(--primary-color);
+  font-family: var(--main-font);
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  margin: 15px;
 }
 
 .top-of-page {
@@ -72,31 +94,37 @@ footer a {
   padding: 20px;
   cursor: pointer;
   border-radius: var(--border-radius);
+  border: 2px solid var(--primary-color);
   box-shadow: var(--box-shadow);
   font-size: 15px;
   color: var(--main-text-color);
-}
-
-.about-page-link {
   background: var(--secondary-color);
-  color: var(--primary-color);
-  text-decoration: none;
-  border: 2px solid var(--primary-color);
+  font-family: var(--main-font);
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
 
-.contact-me-link {
-  border: 2px solid var(--secondary-color);
-  color: var(--secondary-color);
-  text-decoration: none;
+.container-apps {
+  margin: 0 auto;
 }
 
 .app-name {
+  font-family: var(--main-font);
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
   font-size: 30px;
 }
 
 .img-bg {
   border: 2px solid var(--secondary-color);
   box-shadow: var(--box-shadow);
+  margin: 0 auto;
+}
+
+.img-position {
+  margin: 0 auto;
 }
 
 .app-info {
@@ -109,7 +137,6 @@ footer a {
 .about-me-paragraphs {
   display: flex;
   justify-content: space-evenly;
-  color: var(--main-text-color);
 }
 
 .about-me-paragraphs p {
@@ -118,10 +145,15 @@ footer a {
   font-size: 20px;
   line-height: 1.5;
   text-align: center;
+  color: var(--main-text-color);
+  box-shadow: var(--box-shadow);
 }
 
 .certificate-name {
-  font-size: 20px;
+  font-family: var(--main-font);
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .container-contact-info {
@@ -135,6 +167,10 @@ footer a {
   line-height: 1.5;
   text-align: center;
   color: var(--primary-color);
+  font-family: var(--main-font);
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .container-contact-info a {
@@ -142,18 +178,4 @@ footer a {
   margin: 20px;
   text-decoration: none;
   color: var(--main-text-color);
-}
-
-.return-to-homepage-link {
-  display: flex;
-  justify-content: center;
-}
-
-.return-to-homepage-link a {
-  color: var(--secondary-color);
-  border: 2px solid var(--secondary-color);
-  padding: 20px;
-  border-radius: var(--border-radius);
-  box-shadow: var(--box-shadow);
-  text-decoration: none;
 }
