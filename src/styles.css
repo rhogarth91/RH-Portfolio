@@ -85,6 +85,15 @@ footer a {
   margin: 15px;
 }
 
+.rose-hogarth-logo {
+  transition: transform 150ms ease-in-out;
+}
+
+.rose-hogarth-logo:hover {
+  transform: scale(1.8);
+  cursor: pointer;
+}
+
 .container-intro {
   color: var(--main-text-color);
 }
