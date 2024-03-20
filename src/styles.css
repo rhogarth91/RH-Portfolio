@@ -89,12 +89,11 @@ footer a {
   color: var(--main-text-color);
 }
 
-.intro-bg-image {
+.intro-bg-img {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/119/693/original/work_desk.jpg?1710787959");
   background-size: cover;
   background-position: center;
 }
-
 .back-to-top {
   display: flex;
   justify-content: center;
