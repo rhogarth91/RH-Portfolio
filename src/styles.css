@@ -29,7 +29,7 @@ h2 {
 
 h3 {
   text-align: center;
-  font-family: var(--main-font);
+  font-family: var(--header-font);
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
@@ -90,19 +90,38 @@ footer a {
 }
 
 .rose-hogarth-logo:hover {
-  transform: scale(1.8);
+  transform: scale(1.4);
   cursor: pointer;
 }
 
 .container-intro {
   color: var(--main-text-color);
+  margin: 20px;
 }
 
 .intro-bg-img {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/119/693/original/work_desk.jpg?1710787959");
   background-size: cover;
-  background-position: center;
+  background-position: bottom;
+  padding: 20px;
 }
+
+.profile-img {
+  height: auto;
+  max-width: 100%;
+}
+
+.container-social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.container-social-links i {
+  color: var(--secondary-color);
+  padding: 10px;
+  font-size: 30px;
+}
+
 .back-to-top {
   display: flex;
   justify-content: center;
