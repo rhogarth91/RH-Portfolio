@@ -94,9 +94,12 @@ footer a {
   cursor: pointer;
 }
 
-.container-intro {
+.container-intro,
+.container-projects,
+.container-skills {
   color: var(--main-text-color);
   margin: 20px;
+  text-decoration: none;
 }
 
 .intro-bg-img {
@@ -104,11 +107,18 @@ footer a {
   background-size: cover;
   background-position: top;
   padding: 20px;
+  border-radius: var(--border-radius);
 }
 
 .profile-img {
   height: auto;
   max-width: 100%;
+}
+
+.skill-name {
+  font-size: 20px;
+  font-family: var(--header-font);
+  font-style: normal;
 }
 
 .container-social-links {
@@ -134,7 +144,7 @@ footer a {
 .back-to-top a {
   border-radius: 8px;
   margin: 20px;
-  padding: 20px;
+  padding: 10px;
   cursor: pointer;
   border-radius: var(--border-radius);
   border: 2px solid var(--primary-color);
