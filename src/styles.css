@@ -121,6 +121,23 @@ footer a {
   font-style: normal;
 }
 
+.learn-more-link {
+  border-radius: 8px;
+  margin-top: 15px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: var(--border-radius);
+  border: 2px solid var(--primary-color);
+  box-shadow: var(--box-shadow);
+  font-size: 15px;
+  color: var(--main-text-color);
+  background: var(--secondary-color);
+  font-family: var(--main-font);
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
 .container-social-links {
   display: flex;
   justify-content: center;
