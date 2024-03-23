@@ -127,6 +127,7 @@ footer a {
   box-shadow: var(--box-shadow);
   font-size: 15px;
   color: var(--secondary-color);
+  background-color: var(--main-text-color);
   font-family: var(--main-font);
   font-optical-sizing: auto;
   font-weight: 300;
