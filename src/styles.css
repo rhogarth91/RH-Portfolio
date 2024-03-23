@@ -89,16 +89,21 @@ footer a {
 .container-projects,
 .container-skills {
   color: var(--main-text-color);
-  margin: 20px;
   text-decoration: none;
 }
 
+.container-projects {
+  margin-top: 40px;
+}
 .intro-bg-img {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/119/693/original/work_desk.jpg?1710787959");
   background-size: cover;
   background-position: top;
   padding: 20px;
+  margin: 20px;
   border-radius: var(--border-radius);
+  border: 2px solid var(--primary-color);
+  box-shadow: var(--box-shadow);
 }
 
 .profile-img {
@@ -114,15 +119,14 @@ footer a {
 
 .learn-more-link {
   border-radius: 8px;
-  margin-top: 15px;
+  margin: 20px;
   padding: 10px;
   cursor: pointer;
   border-radius: var(--border-radius);
-  border: 2px solid var(--primary-color);
+  border: 2px solid var(--secondary-color);
   box-shadow: var(--box-shadow);
   font-size: 15px;
-  color: var(--main-text-color);
-  background: var(--secondary-color);
+  color: var(--secondary-color);
   font-family: var(--main-font);
   font-optical-sizing: auto;
   font-weight: 300;
