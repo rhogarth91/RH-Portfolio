@@ -122,6 +122,10 @@ footer a {
   font-size: 30px;
 }
 
+.container-social-links i:hover {
+  opacity: 50%;
+}
+
 .back-to-top {
   display: flex;
   justify-content: center;
@@ -217,4 +221,9 @@ footer a {
   margin: 20px;
   text-decoration: none;
   color: var(--main-text-color);
+}
+
+.container-contact-info a:hover {
+  opacity: 70%;
+  color: var(--primary-color);
 }
