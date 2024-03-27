@@ -33,7 +33,7 @@
     />
   </head>
 
-  <body id="container-intro" class="main-bg">
+  <body id="container-nav-bar" class="main-bg">
     <nav class="navbar sticky-top navbar-expand-lg nav-bg">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
@@ -71,7 +71,7 @@
       </div>
     </nav>
 
-    <div class="container-intro intro-bg-img px-4">
+    <div id="container-intro" class="container-intro intro-bg-img px-4">
       <div class="row g-4 text-center">
         <div class="col-sm-9">
           <h1>👋 Hi there!</h1>
@@ -95,7 +95,7 @@
     </div>
     <br />
 
-    <div class="container-skills intro-bg-img px-4">
+    <div id="container-skills" class="container-skills intro-bg-img px-4">
       <div class="text-center">
         <br />
         <h2>Skills</h2>
@@ -171,11 +171,11 @@
         click below!
         <br />
         <br />
-        <a href="/projects.html#top-header">
+        <a href="/projects.html#container-nav-bar">
           <button class="learn-more-link">Learn More</button></a
         >
 
-        <a href="/contact.html#container-contact-info">
+        <a href="/contact.html#container-nav-bar">
           <button class="learn-more-link">Work with me</button></a
         >
       </p>
@@ -183,7 +183,9 @@
     <br />
 
     <div class="back-to-top">
-      <a href="/index.html#container-intro" class="back-to-top">Back to top</a>
+      <a href="/index.html#container-nav-bar" class="back-to-top"
+        >Back to top</a
+      >
     </div>
 
     <div class="container-social-links">
@@ -212,30 +214,34 @@
       </div>
     </div>
 
-    <footer>
-      This project is&nbsp
-      <a
-        href="https://github.com/rhogarth91/RH-Portfolio"
-        alt="rose-hogarth-git-hub-rh-portfolio"
-        target="_blank"
-      >
-        open sourced
-      </a>
-      &nbspcoded by&nbsp
-      <a
-        href="https://github.com/rhogarth91"
-        alt="rose-hogarth-git-hub-homepage"
-        target="_blank"
-        ><strong> Rose H 🌹 </strong></a
-      >
-      &nbspand is hosted on&nbsp
-      <a
-        href="https://rh-coding-portfolio.netlify.app/"
-        alt="rose-hogarth-netlify-rh-portfolio"
-        target="_blank"
-      >
-        Netlify
-      </a>
+    <footer class="container-footer">
+      <div class="row g-4 m-4">
+        <div class="col-sm-12">
+          This project is
+          <a
+            href="https://github.com/rhogarth91/RH-Portfolio"
+            alt="rose-hogarth-git-hub-rh-portfolio"
+            target="_blank"
+          >
+            open sourced
+          </a>
+          coded by
+          <a
+            href="https://github.com/rhogarth91"
+            alt="rose-hogarth-git-hub-homepage"
+            target="_blank"
+            ><strong> Rose H 🌹 </strong></a
+          >
+          and is hosted on
+          <a
+            href="https://rh-coding-portfolio.netlify.app/"
+            alt="rose-hogarth-netlify-rh-portfolio"
+            target="_blank"
+          >
+            Netlify
+          </a>
+        </div>
+      </div>
     </footer>
 
     <script

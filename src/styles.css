@@ -9,8 +9,10 @@
 }
 
 h1,
-h2 {
-  display: block;
+h2,
+h3 {
+  display: flex;
+  justify-content: center;
   font-size: bold;
   text-align: center;
   font-family: var(--header-font);
@@ -28,11 +30,6 @@ h2 {
 }
 
 h3 {
-  text-align: center;
-  font-family: var(--header-font);
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal;
   font-size: 30px;
 }
 
@@ -61,6 +58,8 @@ footer {
 footer a {
   text-decoration: none;
   color: var(--secondary-color);
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .main-bg {
@@ -86,10 +85,22 @@ footer a {
 }
 
 .container-intro,
+.container-skills,
 .container-projects,
+.container-social-links,
+.container-about-me,
+.container-certificates,
+.container-apps,
+.container-contact,
+.container-rh-contact-logo,
+.container-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.container-intro,
 .container-skills {
   color: var(--main-text-color);
-  text-decoration: none;
 }
 
 .container-projects {
@@ -132,11 +143,6 @@ footer a {
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
-}
-
-.container-social-links {
-  display: flex;
-  justify-content: center;
 }
 
 .container-social-links i {
@@ -214,39 +220,24 @@ footer a {
   font-style: normal;
 }
 
-.rh-logo-contact-page {
-  display: block;
-  margin: 0 auto;
-  border-radius: var(--border-radius);
-  border: 2px solid var(--secondary-color);
-  box-shadow: var(--box-shadow);
-}
-
-.container-contact-info {
-  display: flex;
-  justify-content: center;
-  margin: 30px 0;
-}
-
-.container-contact-info p {
+.container-contact p {
+  flex: 1;
+  margin: 0px 500px 0px 500px;
   font-size: 20px;
-  line-height: 1.5;
-  text-align: center;
   color: var(--primary-color);
   font-family: var(--main-font);
-  font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
 }
 
-.container-contact-info a {
+.container-contact a {
   cursor: pointer;
   margin: 20px;
   text-decoration: none;
   color: var(--main-text-color);
 }
 
-.container-contact-info a:hover {
+.container-contact a:hover {
   opacity: 70%;
   color: var(--primary-color);
 }
